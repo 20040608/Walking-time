@@ -1,0 +1,58 @@
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0px auto;
+  padding: 0px 20px;
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 30px;
+  color: black;
+
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label {
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+.inputkm {
+  margin-left: 20px;
+  border: 2px solid black;
+}
+
+.label-span {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.text {
+  margin: 0;
+  color: red;
+  margin-bottom: 50px;
+}
+
